@@ -16,10 +16,9 @@ body {
 	font-size:15pt;
 	float:right;
 	width:400px;
-	z-index:-1;
+	margin-right:90px;
+	text-align:justify;
 }
-
-
 
 
 .header {
@@ -63,13 +62,19 @@ body {
 .square-blocks .dark-gray-bg {
 	background-color: #E0E0E0;
 }
+
 h1 {
+	margin-bottom: 40px;
+	text-align:left;	
+}
+
+.info-page-title {
 	margin-bottom: 40px;
 	text-align:center;	
 }
 
 h2 {
-	padding:10px;
+	padding:20px;
 }
 .square-blocks p {
 	position: absolute;
@@ -121,7 +126,9 @@ h2 {
 	height:30%;
 	width:30%;
 	margin-left:10px;
+	padding:10px;
 	border-radius: 25px;
+	margin-bottom:20px;
 }
 
 .web-block {
@@ -134,17 +141,17 @@ h2 {
 /* Neposjećen */
 .section a:link {
 	text-decoration:underline;
-	color:blue; 
+	color:white; 
 }
 /* Posjećen */
 .section a:visited {
-	color:black;
+	color:white;
 	text-decoration: none;
 }
 /* Prijelaz mišem, selektiran */
 .section a:hover, a:active { 
 	/*text-decoration:underline;*/
-	color:black;
+	color:white;
 	font-weight:bold;
 }
 
@@ -217,22 +224,24 @@ nav li ul {
 }
 
 #descript-text  {
-	size:18pt;
+	font-size:15pt;
 	color:white;
 	float:right;
 	width:300px;
 	margin-right:80px;
 	margin-top:30px;
 	
+	
 }
 
 #descript-text4  {
-	size:18pt;
+	font-size:15pt;
 	color:white;
 	float:right;
 	width:400px;
-	margin-right:300px;
+	margin-right:200px;
 	margin-top:30px;
+	
 }
 .mySlides {
     display: flex;
@@ -253,7 +262,7 @@ nav li ul {
 .works-img2 {
 	height:30%;
 	width:30%;
-	margin-left:70px;
+	margin-left:130px;
 	margin-top:30px;
 	margin-bottom:30px;
 }
@@ -261,7 +270,7 @@ nav li ul {
 .works-img3 {
 	height:55%;
 	width:55%;
-	margin-left:60px;
+	margin-left:80px;
 	margin-top:30px;
 }
 
@@ -471,7 +480,6 @@ img {
 }
 
 
-
 /* The Modal (background) */
 .modalP {
   display: none;
@@ -587,7 +595,7 @@ img {
 /* Number text (1/3 etc) */
 .numbertextP {
   color: #f2f2f2;
- /* text-shadow:2px 2px 2px black;*/
+ text-shadow:2px 2px 2px black;
   font-size: 13px;
   padding: 8px 12px;
   position: absolute;
